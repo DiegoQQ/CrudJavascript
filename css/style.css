@@ -1,0 +1,52 @@
+body{
+    background-color: #f2f4fd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* estilo de la tabla */
+.clients{
+    margin: auto;
+    width: 600px;
+    box-shadow: 5px 5px 10px;
+}
+.clients table{
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse;
+}
+.clients table td, .clients table th{
+    padding: 20px;
+}
+.clients table thead{
+    background-color: #212529;
+    border-bottom: solid 5px #1a1d20;
+    color: white;
+}
+.clients table tbody tr:nth-child(even){
+    background-color: rgb(211, 211, 211);
+}
+/* estilo de botones */
+.edit{
+    background-color: #ffc107;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+.delete{
+    background-color: #dc3545;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+}
+.add{
+    background-color: #198754;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+}
