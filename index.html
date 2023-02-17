@@ -54,11 +54,25 @@
               
         </div>
         <div class="clientForm">
-            
+          <h2 id="title" > persona</h2>
+          <form action="">
+            <label for="nombre">
+                <span>Nombre:</span>
+                <input type="text" name="nombre" id="nombre" autocomplete="name" required>
+            </label>
+            <label for="apellido">
+                <span>Apellido:</span>
+                <input type="text" name="apellido" id="apellido" autocomplete="lastname" required>
+            </label>
+            <label for="correo">
+                <span>Correo:</span>
+                <input type="email" name="correo" id="correo" autocomplete="email" required>
+            </label>
+            <button id="enviar">Agregar</button>
+          </form>
         </div>
     </section>
 
-    <script src="js/Clientes.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

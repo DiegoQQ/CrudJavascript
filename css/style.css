@@ -50,3 +50,9 @@ body{
     border: 0;
     cursor: pointer;
 }
+/* ventana de añadir y editar */
+.clientForm{
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+}
